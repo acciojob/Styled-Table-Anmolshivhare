@@ -2,14 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Top-Grossing Movies of 2023</title>
+    <style>
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        thead th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tbody tr:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
 </head>
 <body>
-    <!-- add table here -->
-
-        
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Title</th>
+                <th>Worldwide Gross</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Avatar: The Way of Water</td>
+                <td>$2.2 billion</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Guardians of the Galaxy Vol. 3</td>
+                <td>$1.1 billion</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>The Flash</td>
+                <td>$863 million</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>The Marvels</td>
+                <td>$792 million</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Oppenheimer</td>
+                <td>$730 million</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
